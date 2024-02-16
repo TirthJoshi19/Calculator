@@ -10,8 +10,7 @@ Array.from(buttons).forEach((button)=>{
             string = "";
             document.querySelector("input").value = string;
         }
-        
-        else {
+        else{
             console.log(e.target);
             string = string + e.target.innerHTML;
             document.querySelector("input").value = string;
@@ -19,5 +18,3 @@ Array.from(buttons).forEach((button)=>{
         }
     })
 })
-
-document.querySelector("input").type = "number";
