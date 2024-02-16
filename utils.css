@@ -1,0 +1,29 @@
+.textcenter {
+    text-align: center;
+    color: white;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: auto; 
+}
+.row {
+    margin: 9px 0;
+}
+
+input {
+    padding: 4px 38px;
+    margin: 0;
+}
+.w1 {
+    
+    align-items: center;
+    
+   
+}
+.w1 button {
+    padding: 17px 18px;
+}
